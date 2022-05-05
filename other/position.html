@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>position</title>
+  <style media="screen">
+    body {
+      height: 100%
+    }
+
+    .thumbsBox {
+      width: 50%;
+      height: 50%;
+    }
+
+    .pTop {
+      position: relative;
+      top: 0px;
+    }
+
+    .pBot {
+      position: relative;
+      bottom: 0px;
+    }
+
+    .pLeft {
+      position: relative;
+      left: 0px;
+    }
+
+    .pRight {
+      position: relative;
+      right: 0px;
+    }
+
+    #tUp {
+      background-color: #00cc00;
+      border: 5px solid #000000;
+      text-align: center;
+    }
+
+    #tWiggle {
+      background-color: #00e6e6;
+      border: 5px solid #000000;
+      text-align: center;
+    }
+
+    #tDown {
+      background-color: #ff0000;
+      border: 5px solid #000000;
+      text-align: center;
+    }
+
+    #tOops {
+      background-color: #ffff00;
+      border: 5px solid #000000;
+      text-align: center;
+    }
+
+    #tUp:hover {
+      background-color: #99ff99
+    }
+
+    #tWiggle:hover {
+      background-color: #80ffff
+    }
+
+    #tDown:hover {
+      background-color: #ff8080
+    }
+
+    #tOops:hover {
+      background-color: #ffff99
+    }
+  </style>
+</head>
+
+<body>
+  <div id="tUp" class="thumbsBox pTop pLeft">
+    A
+  </div>
+
+  <div id="tWiggle" class="thumbsBox pTop pRight">
+    B
+
+  </div>
+
+  <div id="tDown" class="thumbsBox pBot pLeft">
+    C
+
+  </div>
+
+  <div id="tOops" class="thumbsBox pBot pRight">
+    D
+
+  </div>
+</body>
+
+</html>

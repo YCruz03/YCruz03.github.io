@@ -1,0 +1,103 @@
+body {
+  height: 100%
+}
+
+.thumbsBox {
+  width: 50%;
+  height: 50%;
+}
+
+.pTop {
+  position: absolute;
+  top: 0px;
+}
+
+.pBot {
+  position: absolute;
+  bottom: 0px;
+}
+
+.pLeft {
+  position: absolute;
+  left: 0px;
+}
+
+.pRight {
+  position: absolute;
+  right: 0px;
+}
+
+#tUp {
+  background-color: #00cc00;
+  border: 5px solid #000000;
+  text-align: center;
+  font-size: 100px
+}
+
+#tUp:hover {
+  background-color: #99ff99
+}
+
+#tWiggle {
+  background-color: #00e6e6;
+  border: 5px solid #000000;
+  text-align: center;
+  font-size: 100px
+}
+
+#tWiggle:hover {
+  background-color: #80ffff
+}
+
+#tDown {
+  background-color: #ff0000;
+  border: 5px solid #000000;
+  text-align: center;
+  font-size: 100px
+}
+
+#tDown:hover {
+  background-color: #ff8080
+}
+
+#tOops {
+  background-color: #ffff00;
+  border: 5px solid #000000;
+  text-align: center;
+  font-size: 100px
+}
+
+#tOops:hover {
+  background-color: #ffff99
+}
+
+div{
+  background-color: grey;
+}
+
+#content {
+background-color: #2a0080;
+border: 3px solid black;
+}
+
+#headerBox {
+color:purple;
+font-size: 30px;
+border-style: dotted;
+border-color: grey;
+background-color: black;
+margin: 20px
+}
+
+.paraBox {
+border: 3px solid black;
+margin: 20px
+}
+
+#navBox {
+border: 3px solid black;
+margin: 20px;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
